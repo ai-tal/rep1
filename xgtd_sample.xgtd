@@ -1,0 +1,87 @@
+Format type:keyword version: 1.1.0
+begin_<project> Multipath
+project_id 15313
+begin_<globals> 
+longitude 0
+latitude 0
+end_<globals>
+FirstAvailableUnknownLayoutNumber 0
+FirstAvailableStudyAreaNumber 46
+begin_<studyarea> R1
+StudyAreaNumber 7
+active
+invisible
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode none
+binary_rate 0 active
+database_mode write_siso
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+autoboundary 1
+begin_<model> 
+full3d
+raytracingmode sbr
+rcs_method mec_po
+creepingwaves Yes
+ray_spacing 0.25
+plane_wave_phase_reference automatic
+2.7235 9.56042 0
+max_reflections 4
+max_transmissions 0
+max_surface_diffractions 1
+max_wedge_diffractions 1
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse yes
+DelaySpread yes
+FieldAnimation no
+DirectionOfArrival no
+DirectionOfDeparture no
+ElectricFieldVsFrequency no
+ElectricFieldVsTime no
+EMFields no
+FSPathloss no
+FSPower no
+InputData no
+MeanDirectionOfArrival no
+MeanDirectionOfDeparture no
+MeanTimeOfArrival no
+Pathloss yes
+Paths yes
+Power yes
+PowerDelayProfile no
+TimeOfArrival yes
+XPathloss no
+C2I no
+ScatteringAmplitude no
+SParameter no
+StrongestTx no
+TotalReceivedPower yes
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+sealevel
+end_<reference>
+zmin -2.47997999191284
+zmax 2.47997999191284
+nVertices 4
+-5.32999992370605 -1.75 0
+15.375 -1.75 0
+15.375 20.8708324432373 0
+-5.32999992370605 20.8708324432373 0
+end_<boundary>
+end_<studyarea>
