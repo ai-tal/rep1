@@ -1,0 +1,32 @@
+begin_<points> Tx 1
+project_id 1
+inactive
+PatternOption TransmitterAntennaOption
+begin_<location>
+begin_<reference>
+cartesian
+longitude 0
+latitude 0
+end_<reference>
+nVertices 1
+7.50 1.50 0.25
+end_<location>
+is_transmitter yes
+is_receiver no
+end_<points>
+begin_<points> Rx 1
+project_id 5
+inactive
+PatternOption ReceiverAntennaOption
+begin_<location>
+begin_<reference>
+cartesian
+longitude 0
+latitude 0
+end_<reference>
+nVertices 1
+15 0 0
+end_<location>
+is_transmitter no
+is_receiver yes
+end_<points>
